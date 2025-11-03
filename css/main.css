@@ -1,0 +1,300 @@
+
+
+/* text */
+.margin{
+    margin-bottom: 30px;
+  }
+  .pindex{
+      font-size: 25px;
+      margin: 40px;
+  }
+  .paboutme{
+      font-size: 25px;
+      margin: 10px;
+      color: white;
+      font-family: 'Roboto Mono', monospace; 
+  }
+   h1{
+      color: rgb(241, 238, 238);
+      margin: 5px;
+  }
+  h2{
+      margin: 10px;
+      color: rgb(226, 118, 91);
+      
+  }
+  /* Navbar */
+  .close{
+      justify-content: right !important;
+  
+     
+  }
+  .offcanvas{
+      background-color: rgb(21, 27, 31) !important ;
+  }
+  .navbar{
+      
+      background-color: rgb(20, 27, 31) !important;
+      font-family: 'Taviraj';
+      font-size: 22px;
+     
+      
+  }
+  .navbar-collapse {
+      
+      justify-content: center;
+      
+      
+  }
+  .container-fluid {
+      height: 60px;
+  }
+  /* IMG INDEX */
+  .img-index{
+      
+      max-height: 600px;
+      border-radius: 20px;
+      border-color: black;
+  }
+  
+  /* Navbar-IMG/TXT */
+  .red-icons{
+      right: 10px;
+  }
+  
+  
+  .img-right{
+      position: fixed;
+      
+  }
+  
+  .text-nav{
+      font-family: 'Taviraj';
+      font-size: 22px;
+  }
+  
+  /* Body Color */
+   .color{
+      background-color: rgb(129, 26, 26);
+  }
+  /* Form */
+  .form-padding{
+      padding: 25px;
+      margin-top: 50px;
+      width: 350px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      border-radius: 20px;
+  }
+  
+  
+  /* Carousel */
+  .h2-text{
+      justify-content: center !important;
+      text-align: center !important;
+      margin-top: 80px;
+      display: flex !important;
+      color: white;
+      font-family: 'Roboto Mono', monospace; 
+      font-size: 5px;
+  }
+  
+  .carousel-indicators{
+      display: none !important;
+  }
+  .carousel-caption{
+      color: white !important;
+      padding: 4px !important;
+      margin-bottom: -20px;
+      opacity: 95% !important;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 15px;
+      
+  }
+  .carousel-padding{
+  
+      margin-top: 70px;
+      justify-content: center;
+      padding: 10px;
+      height: auto;
+      max-width: 1000px;
+      
+  }
+  
+  .imgcarousel{
+      max-height: 450px;
+      max-width: 1000px;
+  
+  
+  }
+  
+  .bg-body{
+      background-color: rgb(21, 27, 31) !important;
+  }
+
+  .nav-link.active {
+    color: #fff; /* color de fondo de la pestaña activa */
+    background-color: #333; /* color de texto de la pestaña activa */
+    transition: background-color 0.3s ease-in-out; /* animación de fondo */
+}
+
+.nav-link-effect {
+    transition: background-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .nav-link-effect:hover {
+    background-color: #d81616;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.87);
+    color: #fff;
+  }
+  
+  .nav-link.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  
+  /* navbar img */
+  
+  @media (max-width: 991px) {
+      .text-nav{
+          
+          left: 80px;
+          
+          
+  
+      }
+  }
+  @media (max-width: 425px) {
+      .img-index{
+      
+          max-height: 400px;
+      }
+      
+  }
+  
+  @media (max-width: 375px) {
+      .red-icons{
+          
+          display: none !important;
+          
+          
+  
+      }
+      .text-nav{
+          
+          left: 100px;
+          
+          
+  
+      }
+  }@media (max-width: 768px) {
+      .carousel-padding{
+  
+          margin-top: 50px;
+          max-height: 600px;
+          max-width: 600px;
+      }
+      .form-padding{
+  
+          margin-top: 50px;
+          max-height: 600px;
+          max-width: 600px;
+          width: 300px;
+          height: 340px;
+      
+  
+      }
+      .imgcarousel{
+          max-height: 250px;
+          max-width: 1000px;
+      
+      
+      }
+  }
+  /* Add these styles to your existing '../css/main.css' file */
+
+/* Projects Page Main Content Area */
+.projects-page-main {
+    flex-grow: 1;
+    padding: 40px 20px;
+    max-width: 1000px; /* Slightly wider than contact for carousel */
+    margin: 40px auto;
+    background-color: rgb(21, 27, 31); /* Matching body background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.projects-page-main .projects-h1 {
+    color: white; /* Consistent with your general h1 color */
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5em;
+    margin-bottom: 40px;
+}
+
+/* Carousel Customizations */
+#projectsCarousel {
+    max-width: 900px; /* Max width for the carousel container */
+    margin: 0 auto; /* Center the carousel */
+    border-radius: 10px; /* Rounded corners for the carousel */
+    overflow: hidden; /* Ensures corners are rounded */
+    box-shadow: 0 0 15px rgb(248, 1, 1); /* A bit more pronounced shadow for visual pop */
+}
+
+.img-carousel-custom {
+    max-height: 500px; /* Limit the max height of carousel images */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    width: 100%; /* Makes image responsive */
+    border-radius: 10px; /* Apply border-radius to images inside */
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgba(255, 255, 255, 0.5); /* Lighter indicators */
+    width: 12px; /* Larger indicators */
+    height: 12px;
+    border-radius: 50%; /* Round indicators */
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-indicators .active {
+    background-color: gold; /* Active indicator matches your gold highlight */
+}
+
+.carousel-caption {
+    background-color: rgba(21, 27, 31, 0.8); /* Semi-transparent background, matching your body color */
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Roboto Mono', monospace;
+    color: white; 
+}
+
+/* Estilos para el título principal de la página de contacto */
+.contact-page-main h1 { /* O si usas la clase projects-page-main, sería .projects-page-main h1 */
+    color: #FFFFFF; /* Cambia #FFFFFF por el color que desees (ej: #FF0000 para rojo, #00FF00 para verde, #0000FF para azul, o un nombre de color como 'white', 'black', 'red') */
+}
+
+/* Estilos para el texto dentro de la sección de información de contacto */
+.contact-info p {
+    color: #CCCCCC; /* Un color gris claro como ejemplo */
+}
+
+/* Estilos para el texto en negrita dentro de la sección de información de contacto */
+.contact-info strong {
+    color: #F0F0F0; /* Un color un poco más claro para la negrita */
+}
+
+/* Estilos para los enlaces (números de teléfono, email) en la sección de información de contacto */
+.contact-info a {
+    color: #4CAF50; /* Un color verde para los enlaces como ejemplo */
+    text-decoration: none; /* Opcional: quita el subrayado de los enlaces */
+}
+
+/* Cuando el mouse pasa por encima de los enlaces */
+.contact-info a:hover {
+    color: #66BB6A; /* Un verde más claro al pasar el mouse */
+    text-decoration: underline; /* Opcional: añade subrayado al pasar el mouse */
+}
